@@ -56,10 +56,16 @@ Analytics recorded
 ## Next version will add
 
 CSV contact import
+
 Unsubscribe link
+
 Email templates
+
 Campaign scheduling
+
 Send test email
+
 Better validation
+
 Basic bounce handling
 Contact status: subscribed/unsubscribed/bounced
