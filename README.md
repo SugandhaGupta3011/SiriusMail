@@ -5,51 +5,51 @@ Project to create an email marketing service
 ## User Flow
 
 Login
-↓
+->
 Create Audience
-↓
+->
 Import Contacts
-↓
+->
 Create Campaign
-↓
+->
 Preview
-↓
+->
 Send
-↓
+->
 View Analytics
 
 ## Database
 
 Users
-↓
+->
 Workspace
-↓
+->
 Audience
-↓
+->
 Contacts
-↓
+->
 Campaign
-↓
+->
 Email Sends
-↓
+->
 Email Events
 
 ## Sending flow
 
 User clicks Send
-↓
+->
 API validates campaign
-↓
+->
 Campaign status → Sending
-↓
+->
 Messages placed onto SQS
-↓
+->
 Worker reads queue
-↓
+->
 SES sends email
-↓
+->
 Database updated
-↓
+->
 Analytics recorded
 
 
